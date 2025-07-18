@@ -22,7 +22,7 @@ That trip became one of our most unforgettable bonding moments — lots of gist,
   {
     image: image2,
     title: 'Our First Real Hangout',
-    date:  '23‑07‑2020',
+    date:  '23‑02‑2020',
     text:  `It was the night after an election at the corper’s lodge, Ayobami had just contested for ACLO and didn’t win. Naturally, She wasn’t feeling the best.
 
         Then Chuks, with his usual calm presence, suggested we take one of our aimless strolls around the barracks. (Something we had already made a habit of)
@@ -38,7 +38,7 @@ That trip became one of our most unforgettable bonding moments — lots of gist,
    {
     image: image3,
     title: 'Our First Party Together',
-    date:  '14‑02‑2023',
+    date:  '07‑03‑2020',
     text:  `Our first “party” together wasn’t anything fancy. Just a dinner organized for one of the NYSC batches. We arrived late and ended up sitting outside.
 
         Honestly? We didn’t enjoy the party much. But somehow, having each other there made it bearable.
@@ -51,8 +51,8 @@ That trip became one of our most unforgettable bonding moments — lots of gist,
   {
     image: image4,
     title: 'Our Introduction',
-    date:  '20‑09‑2023',
-    text:  `TThe moment we knew we were ready for a lifetime commitment to each other, we also knew it was time to bring our families into the journey.
+    date:  '22‑02‑2025',
+    text:  `The moment we knew we were ready for a lifetime commitment to each other, we also knew it was time to bring our families into the journey.
 
         On February 22nd, 2025, we had our introduction ceremony — a beautiful, heartfelt day surrounded by our families and loved ones.
 
@@ -66,7 +66,7 @@ That trip became one of our most unforgettable bonding moments — lots of gist,
 {
     image: image5,
     title: 'Our Wedding',
-    date:  '01‑12‑2023',
+    date:  '09‑08‑2025',
     text:  `If you got to this point, we guess you already know we’re getting married on the 9th of August, 2025. We look forward to celebrating and sharing our special day with you.`,
   },
 ];
