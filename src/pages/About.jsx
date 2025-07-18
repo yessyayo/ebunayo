@@ -1,5 +1,5 @@
 import React from 'react'
-import groomImage from '../assets/Images/groom.png'
+import groomImage from '../assets/Images/Groom.png'
 import brideImage from '../assets/Images/Bride.png'
 
 const About = () => {
