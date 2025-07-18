@@ -1,5 +1,5 @@
 import React from 'react'
-import leave from '../assets/Images/leave.png';
+import leave from '../assets/Images/Leave.png';
 
 
 const events = [
