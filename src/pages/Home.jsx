@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../components/Header'
-import coupleImage from '../assets/Images/Coupleimage.png'
+import coupleImage from '../assets/Images/CoupleImage.png'
 import About from './About'
 import Gifting from './Gifting'
 import Gallery from './Gallery'
