@@ -53,61 +53,63 @@ const Home = () => {
 
   return (
     <>
-      <Header /> 
+      <div className='overflow-x-hidden'>
+        <Header /> 
 
-      <section id="Home" className="w-full flex flex-col space-y-4">
-          <div className="w-full pb-[64px]">
-            <Slider {...settings}>
-              <div>
-                <img
-                  src={coupleImage1}
-                  alt="Ayobami & Chuks"
-                  className="w-full h-auto object-cover"
-                />
-              </div>
-              <div>
-                <img
-                  src={coupleImage2}
-                  alt="Ayobami & Chuks"
-                  className="w-full h-auto object-cover"
-                />
-              </div>
-              <div>
-                <img
-                  src={coupleImage3}
-                  alt="Ayobami & Chuks"
-                  className="w-full h-auto object-cover"
-                />
-              </div>
-            </Slider>
-          </div>
-          <CountdownTimer />
-        </section>
-      <div className="w-full max-w-[375px] mx-auto flex flex-col gap-[64px] bg-[#F6FFF5] scroll-smooth pt-[120px] overflow-x-hidden">
+        <section id="Home" className="w-full flex flex-col space-y-4">
+            <div className="w-full pb-[64px]">
+              <Slider {...settings}>
+                <div>
+                  <img
+                    src={coupleImage1}
+                    alt="Ayobami & Chuks"
+                    className="w-full h-auto object-cover"
+                  />
+                </div>
+                <div>
+                  <img
+                    src={coupleImage2}
+                    alt="Ayobami & Chuks"
+                    className="w-full h-auto object-cover"
+                  />
+                </div>
+                <div>
+                  <img
+                    src={coupleImage3}
+                    alt="Ayobami & Chuks"
+                    className="w-full h-auto object-cover"
+                  />
+                </div>
+              </Slider>
+            </div>
+            <CountdownTimer />
+          </section>
+        <div className="w-full max-w-[375px] mx-auto flex flex-col gap-[64px] bg-[#F6FFF5] scroll-smooth pt-[120px]">
 
-        <section id="About">
-          <About />
-        </section>
+          <section id="About">
+            <About />
+          </section>
 
-        <section id="FavouriteMoment">
-          <FavouriteMoment />
-        </section>
+          <section id="FavouriteMoment">
+            <FavouriteMoment />
+          </section>
 
-        <section id="Schedule">
-          <Schedule />
-        </section>
+          <section id="Schedule">
+            <Schedule />
+          </section>
 
-        <section>
-          <Video />
-        </section>
+          <section>
+            <Video />
+          </section>
 
-        <section id="Gallery">
-          <Gallery />
-        </section>
+          <section id="Gallery">
+            <Gallery />
+          </section>
 
-        <section id="Gifting">
-          <Gifting />
-        </section>
+          <section id="Gifting">
+            <Gifting />
+          </section>
+        </div>
       </div>
     </>
   )
