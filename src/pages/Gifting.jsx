@@ -63,7 +63,7 @@ const Gifting = () => {
             href='https://wishgum.com/w/ebunayo-25'
             target='_blank'
             rel='noopener noreferrer'
-            className='inline-block w-[390px] bg-[#0D7125] text-white text-[14px] font-semibold px-4 py-2'
+            className='inline-block bg-[#0D7125] text-white text-[14px] font-semibold px-4 py-2'
           >
             View our Wishlist
           </a>
