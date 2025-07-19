@@ -53,9 +53,9 @@ const Home = () => {
 
   return (
     <>
-      <Header /> {/* ✅ Placed outside of scrollable sections */}
-      <div className="w-full max-w-[430px] mx-auto flex flex-col gap-[64px] bg-[#F6FFF5] scroll-smooth pt-[120px] overflow-x-hidden">
-        <section id="Home" className="w-full flex flex-col space-y-4">
+      <Header /> 
+
+      <section id="Home" className="w-full flex flex-col space-y-4">
           <div className="w-full pb-[64px]">
             <Slider {...settings}>
               <div>
@@ -83,6 +83,7 @@ const Home = () => {
           </div>
           <CountdownTimer />
         </section>
+      <div className="w-full max-w-[375px] mx-auto flex flex-col gap-[64px] bg-[#F6FFF5] scroll-smooth pt-[120px] overflow-x-hidden">
 
         <section id="About">
           <About />
