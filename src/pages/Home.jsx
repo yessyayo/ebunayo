@@ -24,9 +24,8 @@ const Home = () => {
       setIsMobile(window.innerWidth <= 430)
     }
 
-    handleResize() 
+    handleResize()
     window.addEventListener('resize', handleResize)
-
     return () => window.removeEventListener('resize', handleResize)
   }, [])
 
@@ -38,7 +37,7 @@ const Home = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
-    arrows: false
+    arrows: false,
   }
 
   if (!isMobile) {
@@ -53,61 +52,63 @@ const Home = () => {
   }
 
   return (
-    <div className="w-full max-w-[430px] mx-auto flex flex-col gap-[64px] bg-[#F6FFF5] scroll-smooth overflow-x-hidden">
-      <section id="Home" className="w-full flex flex-col space-y-4">
-        <Header />
-        <div className="w-full pb-[64px]">
-          <Slider {...settings}>
-            <div>
-              <img
-                src={coupleImage1}
-                alt="Ayobami & Chuks"
-                className="w-full h-auto object-cover"
-              />
-            </div>
-            <div>
-              <img
-                src={coupleImage2}
-                alt="Ayobami & Chuks"
-                className="w-full h-auto object-cover"
-              />
-            </div>
-            <div>
-              <img
-                src={coupleImage3}
-                alt="Ayobami & Chuks"
-                className="w-full h-auto object-cover"
-              />
-            </div>
-          </Slider>
-        </div>
-        <CountdownTimer />
-      </section>
+    <>
+      <Header /> {/* ✅ Placed outside of scrollable sections */}
+      <div className="w-full max-w-[430px] mx-auto flex flex-col gap-[64px] bg-[#F6FFF5] scroll-smooth pt-[120px] overflow-x-hidden">
+        <section id="Home" className="w-full flex flex-col space-y-4">
+          <div className="w-full pb-[64px]">
+            <Slider {...settings}>
+              <div>
+                <img
+                  src={coupleImage1}
+                  alt="Ayobami & Chuks"
+                  className="w-full h-auto object-cover"
+                />
+              </div>
+              <div>
+                <img
+                  src={coupleImage2}
+                  alt="Ayobami & Chuks"
+                  className="w-full h-auto object-cover"
+                />
+              </div>
+              <div>
+                <img
+                  src={coupleImage3}
+                  alt="Ayobami & Chuks"
+                  className="w-full h-auto object-cover"
+                />
+              </div>
+            </Slider>
+          </div>
+          <CountdownTimer />
+        </section>
 
-      <section id="About">
-        <About />
-      </section>
+        <section id="About">
+          <About />
+        </section>
 
-      <section id="FavouriteMoment">
-        <FavouriteMoment />
-      </section>
+        <section id="FavouriteMoment">
+          <FavouriteMoment />
+        </section>
 
-      <section id="Schedule">
-        <Schedule />
-      </section>
+        <section id="Schedule">
+          <Schedule />
+        </section>
 
-      <section>
-        <Video />
-      </section>
+        <section>
+          <Video />
+        </section>
 
-      <section id="Gallery">
-        <Gallery />
-      </section>
+        <section id="Gallery">
+          <Gallery />
+        </section>
 
-      <section id="Gifting">
-        <Gifting />
-      </section>
-    </div>
+        <section id="Gifting">
+          <Gifting />
+        </section>
+      </div>
+    </>
   )
 }
 
