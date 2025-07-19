@@ -56,7 +56,7 @@ const Home = () => {
       <div className='overflow-x-hidden'>
         <Header /> 
 
-        <section id="Home" className="w-full flex flex-col space-y-4">
+        <section id="Home" className="w-full flex flex-col space-y-4  pb-[64px]">
             <div className="w-full pb-[64px]">
               <Slider {...settings}>
                 <div>
@@ -84,7 +84,7 @@ const Home = () => {
             </div>
             <CountdownTimer />
           </section>
-        <div className="w-full max-w-[375px] mx-auto flex flex-col gap-[64px] bg-[#F6FFF5] scroll-smooth pt-[120px]">
+        <div className="w-full max-w-[375px] mx-auto flex flex-col gap-[64px] bg-[#F6FFF5] scroll-smooth">
 
           <section id="About">
             <About />
